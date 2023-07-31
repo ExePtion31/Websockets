@@ -1,0 +1,30 @@
+{
+	"extends": "@istanbuljs/nyc-config-typescript",
+	"reporter": [
+		"lcov",
+		"text"
+	],
+	"exclude": [
+		"**/run.js",
+		"**/*.spec.js",
+		"**/test/**/*",
+		"**/*.d.ts",
+		"**/*.js.map",
+		"test.js",
+		".prettierrc.js",
+		"mocks/",
+		"**/index.js",
+		"**/environment.js",
+		"**/environment.ts",
+		"**/inversify.config.js",
+		"**/inversify.config.ts",
+		"**/models/",
+		"coverage/**",
+		"**/init.ts"
+	],
+	"lines": 85,
+	"statements": 85,
+	"temp-dir": "coverage/.nyc_output",
+	"all": true,
+	"check-coverage": true
+}

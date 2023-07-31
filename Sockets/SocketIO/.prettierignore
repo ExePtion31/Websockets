@@ -1,0 +1,9 @@
+package.json
+package-lock.json
+dist
+angulardoc.json
+.vscode/*
+coverage/*
+.github
+node_modules/*
+.prettierrc.js 

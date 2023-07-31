@@ -1,0 +1,24 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "subpkg install",
+    "build": "subpkg run build",
+    "lint": "subpkg run lint",
+    "lint:fix": "subpkg run lint:fix",
+    "prettier:list": "subpkg run prettier:list",
+    "prettier:write": "subpkg run prettier:write",
+    "prettier": "subpkg run prettier"
+  },
+  "subPackages": [
+    "SocketIO"
+  ],
+  "devDependencies": {
+    "subpackage": "^1.1.0"
+  }
+}
