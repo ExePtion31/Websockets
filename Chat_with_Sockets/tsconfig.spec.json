@@ -1,0 +1,16 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+	  "outDir": "dist/",
+		  "module": "commonjs",
+		  "target": "ES6",
+	  "types": [
+		"jasmine",
+			  "node",
+			  "reflect-metadata"
+		  ]
+	  },
+	  "exclude": [
+		  "src/environment.ts"
+	  ]
+}
